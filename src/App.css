@@ -8,11 +8,6 @@ a {
   text-decoration: none;
   color: #101828;;
   text-transform: capitalize;
-  /* cursor: pointer; */
-}
-
-section {
-  text-align: center;
 }
 
 .profile img {
@@ -67,7 +62,7 @@ section {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 30px;
 }
 
@@ -76,7 +71,121 @@ footer h3{
   font-weight: 100;
 }
 
+/* Contact Page */
+
+.wrapper {
+  margin: 100px 200px;
+}
+
+.wrapper h1 {
+  color: #101828;
+  font-size: 36px;
+}
+
+.wrapper p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #475467;
+}
+
+.form-container {
+  margin-top: 10px;
+  width: 100%;
+  /* border: solid greenyellow; */
+  margin-bottom: 100px;
+}
+
+.input-box label {
+  display: block;
+  font-weight: 500;
+  color: #344054;
+  font-size: 14px;
+}
+
+.input-box {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.input-box:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input-box .entry {
+  width: 49%;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 15px 10px;
+  border-radius: 8px;
+  outline: none;
+  border: .5px solid gray;
+  margin-top: 5px;
+}
+
+.input-box textarea {
+  width: 100%;
+  padding: 10px;
+  height: 100px;
+  border-radius: 8px;
+  outline: none;
+  border: .5px solid gray;
+  margin-top: 5px;
+  resize: none;
+}
+
+.request {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.request h5 {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#btn__submit {
+  background: #1570EF;
+  color: #fff;
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 1240px) {
+  .wrapper {
+    margin: 100px;
+  }
+
+  footer h3 {
+    font-size: 15px;
+  }
+}
+
+
 @media screen and (max-width: 789px) {
+
+  .wrapper {
+    margin: 20px;
+  }
+
+  .input-box:first-of-type {
+    flex-direction: column;
+  }
+
+  .input-box .entry {
+    width: 100%;
+  }
+
+  .input-box .entry:last-of-type {
+    margin-top: 20px;
+  }
+
   footer {
     flex-direction: column;
     align-items: flex-start;

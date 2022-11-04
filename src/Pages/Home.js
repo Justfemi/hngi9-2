@@ -21,6 +21,7 @@ function home() {
         <a href="https://books.zuri.team/python-for-beginners?ref_id=<denver>" id="book__python" className="btn">python books</a>
         <a href="https://background.zuri.team" id="pitch" className="btn">background check for coders</a>
         <a href="https://books.zuri.team/design-rules" id="book__design" className="btn">design books</a>
+        <Link to='/contact' id="contact" className="btn">Contact Me</Link>
       </div>
       <div className="icons">
         <img src={ slackLogo } alt="slack-logo" />
@@ -29,9 +30,7 @@ function home() {
       <hr />
       <footer>
         <div>
-          <Link to='/contact'>
-            <img src={ zuriLogo } alt="zuri-logo" />
-          </Link>
+          <img src={ zuriLogo } alt="zuri-logo" />
         </div>
         <div>
           <h3>HNG Internship 9 Frontend Task</h3>
