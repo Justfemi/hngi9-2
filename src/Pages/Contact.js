@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import i4gLogo from '../Images/I4G.png';
 import zuriLogo from '../Images/zuri-logo.png';

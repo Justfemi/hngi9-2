@@ -11,7 +11,7 @@ function home() {
   return (
     <div className="container">
       <div className="profile">
-        <img src={ myPicture } alt="my profile picture" id="profile__img" />
+        <img src={ myPicture } alt="my profile" id="profile__img" />
         <h2 id="twitter">Justfemi</h2>
         <h3 id="slack">Denver</h3>
       </div>

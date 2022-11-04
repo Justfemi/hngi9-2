@@ -155,6 +155,11 @@ footer h3{
   color: #fff;
   font-size: 17px;
   margin-top: 30px;
+  cursor: pointer;
+}
+
+#btn__submit:hover {
+  background: #0e4899;
 }
 
 @media screen and (max-width: 1240px) {
