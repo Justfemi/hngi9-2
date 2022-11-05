@@ -1,9 +1,12 @@
 import React from 'react';
+import '../contact.css';
 
 import i4gLogo from '../Images/I4G.png';
 import zuriLogo from '../Images/zuri-logo.png';
 
 function contact() {
+  const name = "Ajibade Olufemi";
+
   return (
     <div className='wrapper'>
       <h1>Contact me</h1>
@@ -30,24 +33,24 @@ function contact() {
         </div>
         <div className='request'>
           <input type='checkbox' />
-          <h5>You agree to providing you data to Ajibade Olufemi who may contact you.</h5>
+          <h5>You agree to providing your data to {name} who may contact you.</h5>
         </div>
         <div className='input-box'>
           <input type='submit' value='Send message' id='btn__submit' />
         </div>
       </div>
       <hr />
-      <footer>
+      <div className='footer'>
         <div>
-          <img src={ zuriLogo } alt="zuri-logo" width="170"/>
+          <img src={ zuriLogo } alt="zuri-logo"/>
         </div>
         <div>
           <h3>HNG Internship 9 Frontend Task</h3>
         </div>
         <div>
-          <img src={ i4gLogo } alt="I4G-logo" width="130"/>
+          <img src={ i4gLogo } alt="I4G-logo"/>
         </div>
-      </footer>
+      </div>
     </div>
   )
 }

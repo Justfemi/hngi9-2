@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../home.css';
 
 import myPicture from '../Images/femi.png';
 import githubLogo from '../Images/git-logo.png';
